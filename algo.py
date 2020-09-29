@@ -5,6 +5,7 @@ def combinaison(L):
             for k in range(j+1,10): 
                 
                 if (i!=(j and k) and j!=(i and k) and k!=(j and i)):  
-                    print(L[i],L[j],L[k]) 
+                    print(f"{i}{j}{k}")
+
                     
 combinaison([0,1,2,3,4,5,6,7,8,9])
